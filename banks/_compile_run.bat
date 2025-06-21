@@ -14,7 +14,7 @@ bank3.rel ^
 bank4.rel ^
 SMSlib.lib ..\lib\PSGLib.rel
 
-makesms mspacman.ihx ..\banks\mspacman.sms
+makesms -pp mspacman.ihx ..\banks\mspacman.sms
 
 echo clean up files
 del *.lk
